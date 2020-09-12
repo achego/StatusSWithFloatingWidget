@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.getbase.floatingactionbutton.FloatingActionsMenu
+    android:id="@+id/floatingDownloadButton"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:fab_addButtonColorNormal="@color/colorPrimary"
+    app:fab_addButtonColorPressed="@color/colorPrimaryDark"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_size="mini"
+        app:fab_icon="@drawable/ic_download"
+        android:id="@+id/backgroundDownload"
+        app:fab_title="download"
+        app:fab_labelStyle="@style/fab_layout"/>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_size="mini"
+        app:fab_icon="@drawable/ic_download"
+        android:id="@+id/backgroundSetas"
+        app:fab_title="SetAs"/>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_size="mini"
+        app:fab_icon="@drawable/ic_download"
+        android:id="@+id/backgroundShare"
+        app:fab_title="Share"/>
+
+</com.getbase.floatingactionbutton.FloatingActionsMenu>

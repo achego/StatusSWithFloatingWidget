@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Day / Light theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF0D887D</item>
+        <item name="colorPrimaryDark">#0D887D</item>
+        <item name="colorAccent">#03DAC5</item>
+        <item name="textColor">#808080</item>
+        <item name="backgroundColor">#FFF</item>
+        <item name="tintColor">#80B615</item>
+        <item name="android:windowAnimationStyle">@style/windowsAnimation</item>
+
+    </style>
+
+    <!-- Night / Dark theme -->
+    <style name="DarkTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textColor">#FFF</item>
+        <item name="backgroundColor">#303030</item>
+        <item name="tintColor">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/windowsAnimation</item>
+
+    </style>
+
+    <style name="windowsAnimation">
+
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+
+    </style>
+
+    <style name="fab_layout">
+
+        <item name="background">@drawable/fab_label_background</item>
+        <item name="textColor">#FFF</item>
+
+    </style>
+
+
+
+</resources>

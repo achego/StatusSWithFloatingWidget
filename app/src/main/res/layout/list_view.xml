@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_150sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_5sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/playButton"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/ic_play"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:id="@+id/videoDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="duration"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/_12sdp"
+                android:background="#83000000"
+                android:textColor="#FFF"
+                />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/downloadButton"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/ic_download"
+            android:layout_alignParentRight="true"
+            android:background="#83000000"/>
+
+        <TextView
+            android:id="@+id/fileSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Size"
+            android:textColor="#FFF"
+                android:background="#83000000"
+            android:layout_alignParentStart="true"
+            android:textSize="@dimen/_12sdp"/>
+
+        <LinearLayout
+            android:id="@+id/darkListCover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#75000000"
+            android:visibility="gone"
+            android:orientation="horizontal" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
